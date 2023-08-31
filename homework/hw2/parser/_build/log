@@ -1,0 +1,126 @@
+# dune exec -- ./main.exe
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root:
+# /home/rlawldud/VIrtualbox_shared-1/COSE312-2023spring/homework/hw2/parser
+# Auto-detected concurrency: 1
+$ /home/rlawldud/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune_2db85b_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; toplevel_path = Some External "/home/rlawldud/.opam/4.12.0/lib/toplevel"
+#  ; ocaml_bin = External "/home/rlawldud/.opam/4.12.0/bin"
+#  ; ocaml = Ok External "/home/rlawldud/.opam/4.12.0/bin/ocaml"
+#  ; ocamlc = External "/home/rlawldud/.opam/4.12.0/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/home/rlawldud/.opam/4.12.0/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/home/rlawldud/.opam/4.12.0/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/home/rlawldud/.opam/4.12.0/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/home/rlawldud/.opam/4.12.0/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/home/rlawldud/.opam/4.12.0/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/home/rlawldud/VIrtualbox_shared-1/COSE312-2023spring/homework/hw2/parser"
+#        ; "INSIDE_DUNE" :
+#            "/home/rlawldud/VIrtualbox_shared-1/COSE312-2023spring/homework/hw2/parser/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/rlawldud/VIrtualbox_shared-1/COSE312-2023spring/homework/hw2/parser/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/home/rlawldud/VIrtualbox_shared-1/COSE312-2023spring/homework/hw2/parser/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/rlawldud/VIrtualbox_shared-1/COSE312-2023spring/homework/hw2/parser/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths = [ External "/home/rlawldud/.opam/4.12.0/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default = "/home/rlawldud/.opam/4.12.0/lib/ocaml"
+#      ; standard_library = "/home/rlawldud/.opam/4.12.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamldep.opt -modules -impl main.ml) > _build/default/.main.eobjs/dune__exe__Main.impl.d
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamldep.opt -modules -impl parse.ml) > _build/default/.main.eobjs/dune__exe__Parse.impl.d
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamldep.opt -modules -impl util.ml) > _build/default/.main.eobjs/dune__exe__Util.impl.d
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -o .main.eobjs/byte/dune__exe.cmo -c -impl .main.eobjs/dune__exe.ml-gen)
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o .main.eobjs/native/dune__exe.cmx -c -impl .main.eobjs/dune__exe.ml-gen)
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I .main.eobjs/byte -I /home/rlawldud/.opam/4.12.0/lib/base -I /home/rlawldud/.opam/4.12.0/lib/base/base_internalhash_types -I /home/rlawldud/.opam/4.12.0/lib/base/caml -I /home/rlawldud/.opam/4.12.0/lib/base/md5 -I /home/rlawldud/.opam/4.12.0/lib/base/shadow_stdlib -I /home/rlawldud/.opam/4.12.0/lib/base_bigstring -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck/ppx_quickcheck/runtime -I /home/rlawldud/.opam/4.12.0/lib/batteries -I /home/rlawldud/.opam/4.12.0/lib/bin_prot -I /home/rlawldud/.opam/4.12.0/lib/bin_prot/shape -I /home/rlawldud/.opam/4.12.0/lib/camlp-streams -I /home/rlawldud/.opam/4.12.0/lib/core -I /home/rlawldud/.opam/4.12.0/lib/core/base_for_tests -I /home/rlawldud/.opam/4.12.0/lib/core/validate -I /home/rlawldud/.opam/4.12.0/lib/fieldslib -I /home/rlawldud/.opam/4.12.0/lib/int_repr -I /home/rlawldud/.opam/4.12.0/lib/jane-street-headers -I /home/rlawldud/.opam/4.12.0/lib/ocaml/threads -I /home/rlawldud/.opam/4.12.0/lib/parsexp -I /home/rlawldud/.opam/4.12.0/lib/ppx_assert/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_bench/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_compare/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_enumerate/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/collector -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/common -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config_types -I /home/rlawldud/.opam/4.12.0/lib/ppx_hash/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_here/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_log/types -I /home/rlawldud/.opam/4.12.0/lib/ppx_module_timer/runtime -I /home/rlawldud/.opam/4.12.0/lib/ppx_sexp_conv/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/sexplib -I /home/rlawldud/.opam/4.12.0/lib/sexplib0 -I /home/rlawldud/.opam/4.12.0/lib/splittable_random -I /home/rlawldud/.opam/4.12.0/lib/stdio -I /home/rlawldud/.opam/4.12.0/lib/time_now -I /home/rlawldud/.opam/4.12.0/lib/typerep -I /home/rlawldud/.opam/4.12.0/lib/variantslib -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Util.cmo -c -impl util.ml)
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I .main.eobjs/byte -I .main.eobjs/native -I /home/rlawldud/.opam/4.12.0/lib/base -I /home/rlawldud/.opam/4.12.0/lib/base/base_internalhash_types -I /home/rlawldud/.opam/4.12.0/lib/base/caml -I /home/rlawldud/.opam/4.12.0/lib/base/md5 -I /home/rlawldud/.opam/4.12.0/lib/base/shadow_stdlib -I /home/rlawldud/.opam/4.12.0/lib/base_bigstring -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck/ppx_quickcheck/runtime -I /home/rlawldud/.opam/4.12.0/lib/batteries -I /home/rlawldud/.opam/4.12.0/lib/bin_prot -I /home/rlawldud/.opam/4.12.0/lib/bin_prot/shape -I /home/rlawldud/.opam/4.12.0/lib/camlp-streams -I /home/rlawldud/.opam/4.12.0/lib/core -I /home/rlawldud/.opam/4.12.0/lib/core/base_for_tests -I /home/rlawldud/.opam/4.12.0/lib/core/validate -I /home/rlawldud/.opam/4.12.0/lib/fieldslib -I /home/rlawldud/.opam/4.12.0/lib/int_repr -I /home/rlawldud/.opam/4.12.0/lib/jane-street-headers -I /home/rlawldud/.opam/4.12.0/lib/ocaml/threads -I /home/rlawldud/.opam/4.12.0/lib/parsexp -I /home/rlawldud/.opam/4.12.0/lib/ppx_assert/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_bench/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_compare/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_enumerate/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/collector -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/common -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config_types -I /home/rlawldud/.opam/4.12.0/lib/ppx_hash/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_here/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_log/types -I /home/rlawldud/.opam/4.12.0/lib/ppx_module_timer/runtime -I /home/rlawldud/.opam/4.12.0/lib/ppx_sexp_conv/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/sexplib -I /home/rlawldud/.opam/4.12.0/lib/sexplib0 -I /home/rlawldud/.opam/4.12.0/lib/splittable_random -I /home/rlawldud/.opam/4.12.0/lib/stdio -I /home/rlawldud/.opam/4.12.0/lib/time_now -I /home/rlawldud/.opam/4.12.0/lib/typerep -I /home/rlawldud/.opam/4.12.0/lib/variantslib -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Util.cmx -c -impl util.ml)
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I .main.eobjs/byte -I /home/rlawldud/.opam/4.12.0/lib/base -I /home/rlawldud/.opam/4.12.0/lib/base/base_internalhash_types -I /home/rlawldud/.opam/4.12.0/lib/base/caml -I /home/rlawldud/.opam/4.12.0/lib/base/md5 -I /home/rlawldud/.opam/4.12.0/lib/base/shadow_stdlib -I /home/rlawldud/.opam/4.12.0/lib/base_bigstring -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck/ppx_quickcheck/runtime -I /home/rlawldud/.opam/4.12.0/lib/batteries -I /home/rlawldud/.opam/4.12.0/lib/bin_prot -I /home/rlawldud/.opam/4.12.0/lib/bin_prot/shape -I /home/rlawldud/.opam/4.12.0/lib/camlp-streams -I /home/rlawldud/.opam/4.12.0/lib/core -I /home/rlawldud/.opam/4.12.0/lib/core/base_for_tests -I /home/rlawldud/.opam/4.12.0/lib/core/validate -I /home/rlawldud/.opam/4.12.0/lib/fieldslib -I /home/rlawldud/.opam/4.12.0/lib/int_repr -I /home/rlawldud/.opam/4.12.0/lib/jane-street-headers -I /home/rlawldud/.opam/4.12.0/lib/ocaml/threads -I /home/rlawldud/.opam/4.12.0/lib/parsexp -I /home/rlawldud/.opam/4.12.0/lib/ppx_assert/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_bench/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_compare/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_enumerate/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/collector -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/common -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config_types -I /home/rlawldud/.opam/4.12.0/lib/ppx_hash/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_here/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_log/types -I /home/rlawldud/.opam/4.12.0/lib/ppx_module_timer/runtime -I /home/rlawldud/.opam/4.12.0/lib/ppx_sexp_conv/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/sexplib -I /home/rlawldud/.opam/4.12.0/lib/sexplib0 -I /home/rlawldud/.opam/4.12.0/lib/splittable_random -I /home/rlawldud/.opam/4.12.0/lib/stdio -I /home/rlawldud/.opam/4.12.0/lib/time_now -I /home/rlawldud/.opam/4.12.0/lib/typerep -I /home/rlawldud/.opam/4.12.0/lib/variantslib -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Parse.cmo -c -impl parse.ml)
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I .main.eobjs/byte -I .main.eobjs/native -I /home/rlawldud/.opam/4.12.0/lib/base -I /home/rlawldud/.opam/4.12.0/lib/base/base_internalhash_types -I /home/rlawldud/.opam/4.12.0/lib/base/caml -I /home/rlawldud/.opam/4.12.0/lib/base/md5 -I /home/rlawldud/.opam/4.12.0/lib/base/shadow_stdlib -I /home/rlawldud/.opam/4.12.0/lib/base_bigstring -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck/ppx_quickcheck/runtime -I /home/rlawldud/.opam/4.12.0/lib/batteries -I /home/rlawldud/.opam/4.12.0/lib/bin_prot -I /home/rlawldud/.opam/4.12.0/lib/bin_prot/shape -I /home/rlawldud/.opam/4.12.0/lib/camlp-streams -I /home/rlawldud/.opam/4.12.0/lib/core -I /home/rlawldud/.opam/4.12.0/lib/core/base_for_tests -I /home/rlawldud/.opam/4.12.0/lib/core/validate -I /home/rlawldud/.opam/4.12.0/lib/fieldslib -I /home/rlawldud/.opam/4.12.0/lib/int_repr -I /home/rlawldud/.opam/4.12.0/lib/jane-street-headers -I /home/rlawldud/.opam/4.12.0/lib/ocaml/threads -I /home/rlawldud/.opam/4.12.0/lib/parsexp -I /home/rlawldud/.opam/4.12.0/lib/ppx_assert/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_bench/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_compare/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_enumerate/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/collector -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/common -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config_types -I /home/rlawldud/.opam/4.12.0/lib/ppx_hash/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_here/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_log/types -I /home/rlawldud/.opam/4.12.0/lib/ppx_module_timer/runtime -I /home/rlawldud/.opam/4.12.0/lib/ppx_sexp_conv/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/sexplib -I /home/rlawldud/.opam/4.12.0/lib/sexplib0 -I /home/rlawldud/.opam/4.12.0/lib/splittable_random -I /home/rlawldud/.opam/4.12.0/lib/stdio -I /home/rlawldud/.opam/4.12.0/lib/time_now -I /home/rlawldud/.opam/4.12.0/lib/typerep -I /home/rlawldud/.opam/4.12.0/lib/variantslib -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Parse.cmx -c -impl parse.ml)
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I .main.eobjs/byte -I /home/rlawldud/.opam/4.12.0/lib/base -I /home/rlawldud/.opam/4.12.0/lib/base/base_internalhash_types -I /home/rlawldud/.opam/4.12.0/lib/base/caml -I /home/rlawldud/.opam/4.12.0/lib/base/md5 -I /home/rlawldud/.opam/4.12.0/lib/base/shadow_stdlib -I /home/rlawldud/.opam/4.12.0/lib/base_bigstring -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck/ppx_quickcheck/runtime -I /home/rlawldud/.opam/4.12.0/lib/batteries -I /home/rlawldud/.opam/4.12.0/lib/bin_prot -I /home/rlawldud/.opam/4.12.0/lib/bin_prot/shape -I /home/rlawldud/.opam/4.12.0/lib/camlp-streams -I /home/rlawldud/.opam/4.12.0/lib/core -I /home/rlawldud/.opam/4.12.0/lib/core/base_for_tests -I /home/rlawldud/.opam/4.12.0/lib/core/validate -I /home/rlawldud/.opam/4.12.0/lib/fieldslib -I /home/rlawldud/.opam/4.12.0/lib/int_repr -I /home/rlawldud/.opam/4.12.0/lib/jane-street-headers -I /home/rlawldud/.opam/4.12.0/lib/ocaml/threads -I /home/rlawldud/.opam/4.12.0/lib/parsexp -I /home/rlawldud/.opam/4.12.0/lib/ppx_assert/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_bench/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_compare/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_enumerate/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/collector -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/common -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config_types -I /home/rlawldud/.opam/4.12.0/lib/ppx_hash/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_here/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_log/types -I /home/rlawldud/.opam/4.12.0/lib/ppx_module_timer/runtime -I /home/rlawldud/.opam/4.12.0/lib/ppx_sexp_conv/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/sexplib -I /home/rlawldud/.opam/4.12.0/lib/sexplib0 -I /home/rlawldud/.opam/4.12.0/lib/splittable_random -I /home/rlawldud/.opam/4.12.0/lib/stdio -I /home/rlawldud/.opam/4.12.0/lib/time_now -I /home/rlawldud/.opam/4.12.0/lib/typerep -I /home/rlawldud/.opam/4.12.0/lib/variantslib -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Main.cmo -c -impl main.ml)
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I .main.eobjs/byte -I .main.eobjs/native -I /home/rlawldud/.opam/4.12.0/lib/base -I /home/rlawldud/.opam/4.12.0/lib/base/base_internalhash_types -I /home/rlawldud/.opam/4.12.0/lib/base/caml -I /home/rlawldud/.opam/4.12.0/lib/base/md5 -I /home/rlawldud/.opam/4.12.0/lib/base/shadow_stdlib -I /home/rlawldud/.opam/4.12.0/lib/base_bigstring -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck -I /home/rlawldud/.opam/4.12.0/lib/base_quickcheck/ppx_quickcheck/runtime -I /home/rlawldud/.opam/4.12.0/lib/batteries -I /home/rlawldud/.opam/4.12.0/lib/bin_prot -I /home/rlawldud/.opam/4.12.0/lib/bin_prot/shape -I /home/rlawldud/.opam/4.12.0/lib/camlp-streams -I /home/rlawldud/.opam/4.12.0/lib/core -I /home/rlawldud/.opam/4.12.0/lib/core/base_for_tests -I /home/rlawldud/.opam/4.12.0/lib/core/validate -I /home/rlawldud/.opam/4.12.0/lib/fieldslib -I /home/rlawldud/.opam/4.12.0/lib/int_repr -I /home/rlawldud/.opam/4.12.0/lib/jane-street-headers -I /home/rlawldud/.opam/4.12.0/lib/ocaml/threads -I /home/rlawldud/.opam/4.12.0/lib/parsexp -I /home/rlawldud/.opam/4.12.0/lib/ppx_assert/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_bench/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_compare/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_enumerate/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/collector -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/common -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config_types -I /home/rlawldud/.opam/4.12.0/lib/ppx_hash/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_here/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/config -I /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/ppx_log/types -I /home/rlawldud/.opam/4.12.0/lib/ppx_module_timer/runtime -I /home/rlawldud/.opam/4.12.0/lib/ppx_sexp_conv/runtime-lib -I /home/rlawldud/.opam/4.12.0/lib/sexplib -I /home/rlawldud/.opam/4.12.0/lib/sexplib0 -I /home/rlawldud/.opam/4.12.0/lib/splittable_random -I /home/rlawldud/.opam/4.12.0/lib/stdio -I /home/rlawldud/.opam/4.12.0/lib/time_now -I /home/rlawldud/.opam/4.12.0/lib/typerep -I /home/rlawldud/.opam/4.12.0/lib/variantslib -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Main.cmx -c -impl main.ml)
+$ (cd _build/default && /home/rlawldud/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o main.exe /home/rlawldud/.opam/4.12.0/lib/base/base_internalhash_types/base_internalhash_types.cmxa -I /home/rlawldud/.opam/4.12.0/lib/base/base_internalhash_types /home/rlawldud/.opam/4.12.0/lib/base/caml/caml.cmxa /home/rlawldud/.opam/4.12.0/lib/sexplib0/sexplib0.cmxa /home/rlawldud/.opam/4.12.0/lib/base/shadow_stdlib/shadow_stdlib.cmxa /home/rlawldud/.opam/4.12.0/lib/base/base.cmxa -I /home/rlawldud/.opam/4.12.0/lib/base /home/rlawldud/.opam/4.12.0/lib/stdio/stdio.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_sexp_conv/runtime-lib/ppx_sexp_conv_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_compare/runtime-lib/ppx_compare_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_enumerate/runtime-lib/ppx_enumerate_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_hash/runtime-lib/ppx_hash_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_here/runtime-lib/ppx_here_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_assert/runtime-lib/ppx_assert_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_bench/runtime-lib/ppx_bench_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/base/md5/md5_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/ocaml/unix.cmxa -I /home/rlawldud/.opam/4.12.0/lib/ocaml /home/rlawldud/.opam/4.12.0/lib/ocaml/bigarray.cmxa -I /home/rlawldud/.opam/4.12.0/lib/ocaml /home/rlawldud/.opam/4.12.0/lib/fieldslib/fieldslib.cmxa /home/rlawldud/.opam/4.12.0/lib/variantslib/variantslib.cmxa /home/rlawldud/.opam/4.12.0/lib/bin_prot/shape/bin_shape_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/bin_prot/bin_prot.cmxa -I /home/rlawldud/.opam/4.12.0/lib/bin_prot /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/config/inline_test_config.cmxa /home/rlawldud/.opam/4.12.0/lib/jane-street-headers/jane_street_headers.cmxa /home/rlawldud/.opam/4.12.0/lib/time_now/time_now.cmxa -I /home/rlawldud/.opam/4.12.0/lib/time_now /home/rlawldud/.opam/4.12.0/lib/ppx_inline_test/runtime-lib/ppx_inline_test_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_module_timer/runtime/ppx_module_timer_runtime.cmxa /home/rlawldud/.opam/4.12.0/lib/typerep/typerep_lib.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_expect/common/expect_test_common.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config_types/expect_test_config_types.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_expect/collector/expect_test_collector.cmxa -I /home/rlawldud/.opam/4.12.0/lib/ppx_expect/collector /home/rlawldud/.opam/4.12.0/lib/ppx_expect/config/expect_test_config.cmxa /home/rlawldud/.opam/4.12.0/lib/parsexp/parsexp.cmxa /home/rlawldud/.opam/4.12.0/lib/sexplib/sexplib.cmxa /home/rlawldud/.opam/4.12.0/lib/ppx_log/types/ppx_log_types.cmxa /home/rlawldud/.opam/4.12.0/lib/splittable_random/splittable_random.cmxa /home/rlawldud/.opam/4.12.0/lib/base_quickcheck/base_quickcheck.cmxa /home/rlawldud/.opam/4.12.0/lib/base_quickcheck/ppx_quickcheck/runtime/ppx_quickcheck_runtime.cmxa /home/rlawldud/.opam/4.12.0/lib/int_repr/int_repr.cmxa /home/rlawldud/.opam/4.12.0/lib/base_bigstring/base_bigstring.cmxa -I /home/rlawldud/.opam/4.12.0/lib/base_bigstring /home/rlawldud/.opam/4.12.0/lib/core/base_for_tests/base_for_tests.cmxa /home/rlawldud/.opam/4.12.0/lib/core/validate/validate.cmxa /home/rlawldud/.opam/4.12.0/lib/core/core.cmxa -I /home/rlawldud/.opam/4.12.0/lib/core /home/rlawldud/.opam/4.12.0/lib/ocaml/nums.cmxa -I /home/rlawldud/.opam/4.12.0/lib/ocaml -I /home/rlawldud/.opam/4.12.0/lib/ocaml /home/rlawldud/.opam/4.12.0/lib/camlp-streams/camlp_streams.cmxa /home/rlawldud/.opam/4.12.0/lib/ocaml/str.cmxa -I /home/rlawldud/.opam/4.12.0/lib/ocaml /home/rlawldud/.opam/4.12.0/lib/batteries/batteries.cmxa /home/rlawldud/.opam/4.12.0/lib/ocaml/threads/threads.cmxa -I /home/rlawldud/.opam/4.12.0/lib/ocaml /home/rlawldud/.opam/4.12.0/lib/batteries/batteriesThread.cmxa .main.eobjs/native/dune__exe.cmx .main.eobjs/native/dune__exe__Util.cmx .main.eobjs/native/dune__exe__Parse.cmx .main.eobjs/native/dune__exe__Main.cmx)

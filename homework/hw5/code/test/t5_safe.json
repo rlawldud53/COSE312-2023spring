@@ -1,0 +1,150 @@
+{
+    "_type": "Module",
+    "body": [
+        {
+            "_type": "FunctionDef",
+            "args": {
+                "_type": "arguments",
+                "args": [
+                    {
+                        "_type": "arg",
+                        "annotation": null,
+                        "arg": "x",
+                        "col_offset": 9,
+                        "end_col_offset": 10,
+                        "end_lineno": 1,
+                        "lineno": 1,
+                        "type_comment": null
+                    }
+                ],
+                "defaults": [],
+                "kw_defaults": [],
+                "kwarg": null,
+                "kwonlyargs": [],
+                "posonlyargs": [],
+                "vararg": null
+            },
+            "body": [
+                {
+                    "_type": "Return",
+                    "col_offset": 3,
+                    "end_col_offset": 13,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "value": {
+                        "_type": "BinOp",
+                        "col_offset": 10,
+                        "end_col_offset": 13,
+                        "end_lineno": 2,
+                        "left": {
+                            "_type": "Name",
+                            "col_offset": 10,
+                            "ctx": {
+                                "_type": "Load"
+                            },
+                            "end_col_offset": 11,
+                            "end_lineno": 2,
+                            "id": "x",
+                            "lineno": 2
+                        },
+                        "lineno": 2,
+                        "op": {
+                            "_type": "Add"
+                        },
+                        "right": {
+                            "_type": "Constant",
+                            "col_offset": 12,
+                            "end_col_offset": 13,
+                            "end_lineno": 2,
+                            "kind": null,
+                            "lineno": 2,
+                            "n": 1,
+                            "s": 1,
+                            "value": 1
+                        }
+                    }
+                }
+            ],
+            "col_offset": 0,
+            "decorator_list": [],
+            "end_col_offset": 13,
+            "end_lineno": 2,
+            "lineno": 1,
+            "name": "safe",
+            "returns": null,
+            "type_comment": null
+        },
+        {
+            "_type": "Assign",
+            "col_offset": 0,
+            "end_col_offset": 8,
+            "end_lineno": 4,
+            "lineno": 4,
+            "targets": [
+                {
+                    "_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "_type": "Store"
+                    },
+                    "end_col_offset": 1,
+                    "end_lineno": 4,
+                    "id": "f",
+                    "lineno": 4
+                }
+            ],
+            "type_comment": null,
+            "value": {
+                "_type": "Name",
+                "col_offset": 4,
+                "ctx": {
+                    "_type": "Load"
+                },
+                "end_col_offset": 8,
+                "end_lineno": 4,
+                "id": "safe",
+                "lineno": 4
+            }
+        },
+        {
+            "_type": "Expr",
+            "col_offset": 0,
+            "end_col_offset": 4,
+            "end_lineno": 5,
+            "lineno": 5,
+            "value": {
+                "_type": "Call",
+                "args": [
+                    {
+                        "_type": "Constant",
+                        "col_offset": 2,
+                        "end_col_offset": 3,
+                        "end_lineno": 5,
+                        "kind": null,
+                        "lineno": 5,
+                        "n": 0,
+                        "s": 0,
+                        "value": 0
+                    }
+                ],
+                "col_offset": 0,
+                "end_col_offset": 4,
+                "end_lineno": 5,
+                "func": {
+                    "_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "_type": "Load"
+                    },
+                    "end_col_offset": 1,
+                    "end_lineno": 5,
+                    "id": "f",
+                    "lineno": 5
+                },
+                "keywords": [],
+                "lineno": 5
+            }
+        }
+    ],
+    "type_ignores": []
+}

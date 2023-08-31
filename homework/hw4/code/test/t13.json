@@ -1,0 +1,339 @@
+{
+    "_type": "Module",
+    "body": [
+        {
+            "_type": "FunctionDef",
+            "args": {
+                "_type": "arguments",
+                "args": [
+                    {
+                        "_type": "arg",
+                        "annotation": null,
+                        "arg": "n",
+                        "col_offset": 8,
+                        "end_col_offset": 9,
+                        "end_lineno": 1,
+                        "lineno": 1,
+                        "type_comment": null
+                    }
+                ],
+                "defaults": [],
+                "kw_defaults": [],
+                "kwarg": null,
+                "kwonlyargs": [],
+                "posonlyargs": [],
+                "vararg": null
+            },
+            "body": [
+                {
+                    "_type": "Assign",
+                    "col_offset": 2,
+                    "end_col_offset": 9,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "targets": [
+                        {
+                            "_type": "Name",
+                            "col_offset": 2,
+                            "ctx": {
+                                "_type": "Store"
+                            },
+                            "end_col_offset": 5,
+                            "end_lineno": 2,
+                            "id": "sum",
+                            "lineno": 2
+                        }
+                    ],
+                    "type_comment": null,
+                    "value": {
+                        "_type": "Constant",
+                        "col_offset": 8,
+                        "end_col_offset": 9,
+                        "end_lineno": 2,
+                        "kind": null,
+                        "lineno": 2,
+                        "n": 0,
+                        "s": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "_type": "For",
+                    "body": [
+                        {
+                            "_type": "AugAssign",
+                            "col_offset": 4,
+                            "end_col_offset": 14,
+                            "end_lineno": 4,
+                            "lineno": 4,
+                            "op": {
+                                "_type": "Add"
+                            },
+                            "target": {
+                                "_type": "Name",
+                                "col_offset": 4,
+                                "ctx": {
+                                    "_type": "Store"
+                                },
+                                "end_col_offset": 7,
+                                "end_lineno": 4,
+                                "id": "sum",
+                                "lineno": 4
+                            },
+                            "value": {
+                                "_type": "Name",
+                                "col_offset": 11,
+                                "ctx": {
+                                    "_type": "Load"
+                                },
+                                "end_col_offset": 14,
+                                "end_lineno": 4,
+                                "id": "num",
+                                "lineno": 4
+                            }
+                        }
+                    ],
+                    "col_offset": 2,
+                    "end_col_offset": 14,
+                    "end_lineno": 4,
+                    "iter": {
+                        "_type": "Call",
+                        "args": [
+                            {
+                                "_type": "BinOp",
+                                "col_offset": 19,
+                                "end_col_offset": 22,
+                                "end_lineno": 3,
+                                "left": {
+                                    "_type": "Name",
+                                    "col_offset": 19,
+                                    "ctx": {
+                                        "_type": "Load"
+                                    },
+                                    "end_col_offset": 20,
+                                    "end_lineno": 3,
+                                    "id": "n",
+                                    "lineno": 3
+                                },
+                                "lineno": 3,
+                                "op": {
+                                    "_type": "Add"
+                                },
+                                "right": {
+                                    "_type": "Constant",
+                                    "col_offset": 21,
+                                    "end_col_offset": 22,
+                                    "end_lineno": 3,
+                                    "kind": null,
+                                    "lineno": 3,
+                                    "n": 1,
+                                    "s": 1,
+                                    "value": 1
+                                }
+                            }
+                        ],
+                        "col_offset": 13,
+                        "end_col_offset": 23,
+                        "end_lineno": 3,
+                        "func": {
+                            "_type": "Name",
+                            "col_offset": 13,
+                            "ctx": {
+                                "_type": "Load"
+                            },
+                            "end_col_offset": 18,
+                            "end_lineno": 3,
+                            "id": "range",
+                            "lineno": 3
+                        },
+                        "keywords": [],
+                        "lineno": 3
+                    },
+                    "lineno": 3,
+                    "orelse": [],
+                    "target": {
+                        "_type": "Name",
+                        "col_offset": 6,
+                        "ctx": {
+                            "_type": "Store"
+                        },
+                        "end_col_offset": 9,
+                        "end_lineno": 3,
+                        "id": "num",
+                        "lineno": 3
+                    },
+                    "type_comment": null
+                },
+                {
+                    "_type": "Return",
+                    "col_offset": 2,
+                    "end_col_offset": 12,
+                    "end_lineno": 5,
+                    "lineno": 5,
+                    "value": {
+                        "_type": "Name",
+                        "col_offset": 9,
+                        "ctx": {
+                            "_type": "Load"
+                        },
+                        "end_col_offset": 12,
+                        "end_lineno": 5,
+                        "id": "sum",
+                        "lineno": 5
+                    }
+                }
+            ],
+            "col_offset": 0,
+            "decorator_list": [],
+            "end_col_offset": 12,
+            "end_lineno": 5,
+            "lineno": 1,
+            "name": "sum",
+            "returns": null,
+            "type_comment": null
+        },
+        {
+            "_type": "Expr",
+            "col_offset": 0,
+            "end_col_offset": 30,
+            "end_lineno": 7,
+            "lineno": 7,
+            "value": {
+                "_type": "Call",
+                "args": [
+                    {
+                        "_type": "Constant",
+                        "col_offset": 6,
+                        "end_col_offset": 21,
+                        "end_lineno": 7,
+                        "kind": null,
+                        "lineno": 7,
+                        "n": "calcsum(4) = ",
+                        "s": "calcsum(4) = ",
+                        "value": "calcsum(4) = "
+                    },
+                    {
+                        "_type": "Call",
+                        "args": [
+                            {
+                                "_type": "Constant",
+                                "col_offset": 27,
+                                "end_col_offset": 28,
+                                "end_lineno": 7,
+                                "kind": null,
+                                "lineno": 7,
+                                "n": 4,
+                                "s": 4,
+                                "value": 4
+                            }
+                        ],
+                        "col_offset": 23,
+                        "end_col_offset": 29,
+                        "end_lineno": 7,
+                        "func": {
+                            "_type": "Name",
+                            "col_offset": 23,
+                            "ctx": {
+                                "_type": "Load"
+                            },
+                            "end_col_offset": 26,
+                            "end_lineno": 7,
+                            "id": "sum",
+                            "lineno": 7
+                        },
+                        "keywords": [],
+                        "lineno": 7
+                    }
+                ],
+                "col_offset": 0,
+                "end_col_offset": 30,
+                "end_lineno": 7,
+                "func": {
+                    "_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "_type": "Load"
+                    },
+                    "end_col_offset": 5,
+                    "end_lineno": 7,
+                    "id": "print",
+                    "lineno": 7
+                },
+                "keywords": [],
+                "lineno": 7
+            }
+        },
+        {
+            "_type": "Expr",
+            "col_offset": 0,
+            "end_col_offset": 30,
+            "end_lineno": 8,
+            "lineno": 8,
+            "value": {
+                "_type": "Call",
+                "args": [
+                    {
+                        "_type": "Constant",
+                        "col_offset": 6,
+                        "end_col_offset": 21,
+                        "end_lineno": 8,
+                        "kind": null,
+                        "lineno": 8,
+                        "n": "calcsum(8) = ",
+                        "s": "calcsum(8) = ",
+                        "value": "calcsum(8) = "
+                    },
+                    {
+                        "_type": "Call",
+                        "args": [
+                            {
+                                "_type": "Constant",
+                                "col_offset": 27,
+                                "end_col_offset": 28,
+                                "end_lineno": 8,
+                                "kind": null,
+                                "lineno": 8,
+                                "n": 8,
+                                "s": 8,
+                                "value": 8
+                            }
+                        ],
+                        "col_offset": 23,
+                        "end_col_offset": 29,
+                        "end_lineno": 8,
+                        "func": {
+                            "_type": "Name",
+                            "col_offset": 23,
+                            "ctx": {
+                                "_type": "Load"
+                            },
+                            "end_col_offset": 26,
+                            "end_lineno": 8,
+                            "id": "sum",
+                            "lineno": 8
+                        },
+                        "keywords": [],
+                        "lineno": 8
+                    }
+                ],
+                "col_offset": 0,
+                "end_col_offset": 30,
+                "end_lineno": 8,
+                "func": {
+                    "_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "_type": "Load"
+                    },
+                    "end_col_offset": 5,
+                    "end_lineno": 8,
+                    "id": "print",
+                    "lineno": 8
+                },
+                "keywords": [],
+                "lineno": 8
+            }
+        }
+    ],
+    "type_ignores": []
+}

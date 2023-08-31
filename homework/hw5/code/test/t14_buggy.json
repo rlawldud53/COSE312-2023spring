@@ -1,0 +1,579 @@
+{
+    "_type": "Module",
+    "body": [
+        {
+            "_type": "FunctionDef",
+            "args": {
+                "_type": "arguments",
+                "args": [
+                    {
+                        "_type": "arg",
+                        "annotation": null,
+                        "arg": "x",
+                        "col_offset": 17,
+                        "end_col_offset": 18,
+                        "end_lineno": 1,
+                        "lineno": 1,
+                        "type_comment": null
+                    }
+                ],
+                "defaults": [],
+                "kw_defaults": [],
+                "kwarg": null,
+                "kwonlyargs": [],
+                "posonlyargs": [],
+                "vararg": null
+            },
+            "body": [
+                {
+                    "_type": "If",
+                    "body": [
+                        {
+                            "_type": "Return",
+                            "col_offset": 4,
+                            "end_col_offset": 15,
+                            "end_lineno": 3,
+                            "lineno": 3,
+                            "value": {
+                                "_type": "Constant",
+                                "col_offset": 11,
+                                "end_col_offset": 15,
+                                "end_lineno": 3,
+                                "kind": null,
+                                "lineno": 3,
+                                "n": true,
+                                "s": true,
+                                "value": true
+                            }
+                        }
+                    ],
+                    "col_offset": 2,
+                    "end_col_offset": 15,
+                    "end_lineno": 5,
+                    "lineno": 2,
+                    "orelse": [
+                        {
+                            "_type": "Return",
+                            "col_offset": 4,
+                            "end_col_offset": 15,
+                            "end_lineno": 5,
+                            "lineno": 5,
+                            "value": {
+                                "_type": "Constant",
+                                "col_offset": 11,
+                                "end_col_offset": 15,
+                                "end_lineno": 5,
+                                "kind": null,
+                                "lineno": 5,
+                                "n": null,
+                                "s": null,
+                                "value": null
+                            }
+                        }
+                    ],
+                    "test": {
+                        "_type": "BoolOp",
+                        "col_offset": 5,
+                        "end_col_offset": 26,
+                        "end_lineno": 2,
+                        "lineno": 2,
+                        "op": {
+                            "_type": "And"
+                        },
+                        "values": [
+                            {
+                                "_type": "Compare",
+                                "col_offset": 6,
+                                "comparators": [
+                                    {
+                                        "_type": "Constant",
+                                        "col_offset": 11,
+                                        "end_col_offset": 12,
+                                        "end_lineno": 2,
+                                        "kind": null,
+                                        "lineno": 2,
+                                        "n": 0,
+                                        "s": 0,
+                                        "value": 0
+                                    }
+                                ],
+                                "end_col_offset": 12,
+                                "end_lineno": 2,
+                                "left": {
+                                    "_type": "Name",
+                                    "col_offset": 6,
+                                    "ctx": {
+                                        "_type": "Load"
+                                    },
+                                    "end_col_offset": 7,
+                                    "end_lineno": 2,
+                                    "id": "x",
+                                    "lineno": 2
+                                },
+                                "lineno": 2,
+                                "ops": [
+                                    {
+                                        "_type": "GtE"
+                                    }
+                                ]
+                            },
+                            {
+                                "_type": "Compare",
+                                "col_offset": 19,
+                                "comparators": [
+                                    {
+                                        "_type": "Constant",
+                                        "col_offset": 23,
+                                        "end_col_offset": 25,
+                                        "end_lineno": 2,
+                                        "kind": null,
+                                        "lineno": 2,
+                                        "n": 10,
+                                        "s": 10,
+                                        "value": 10
+                                    }
+                                ],
+                                "end_col_offset": 25,
+                                "end_lineno": 2,
+                                "left": {
+                                    "_type": "Name",
+                                    "col_offset": 19,
+                                    "ctx": {
+                                        "_type": "Load"
+                                    },
+                                    "end_col_offset": 20,
+                                    "end_lineno": 2,
+                                    "id": "x",
+                                    "lineno": 2
+                                },
+                                "lineno": 2,
+                                "ops": [
+                                    {
+                                        "_type": "Lt"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "col_offset": 0,
+            "decorator_list": [],
+            "end_col_offset": 15,
+            "end_lineno": 5,
+            "lineno": 1,
+            "name": "is_one_digit",
+            "returns": null,
+            "type_comment": null
+        },
+        {
+            "_type": "Assign",
+            "col_offset": 0,
+            "end_col_offset": 21,
+            "end_lineno": 7,
+            "lineno": 7,
+            "targets": [
+                {
+                    "_type": "Name",
+                    "col_offset": 0,
+                    "ctx": {
+                        "_type": "Store"
+                    },
+                    "end_col_offset": 6,
+                    "end_lineno": 7,
+                    "id": "keysym",
+                    "lineno": 7
+                }
+            ],
+            "type_comment": null,
+            "value": {
+                "_type": "Call",
+                "args": [
+                    {
+                        "_type": "Call",
+                        "args": [],
+                        "col_offset": 13,
+                        "end_col_offset": 20,
+                        "end_lineno": 7,
+                        "func": {
+                            "_type": "Name",
+                            "col_offset": 13,
+                            "ctx": {
+                                "_type": "Load"
+                            },
+                            "end_col_offset": 18,
+                            "end_lineno": 7,
+                            "id": "input",
+                            "lineno": 7
+                        },
+                        "keywords": [],
+                        "lineno": 7
+                    }
+                ],
+                "col_offset": 9,
+                "end_col_offset": 21,
+                "end_lineno": 7,
+                "func": {
+                    "_type": "Name",
+                    "col_offset": 9,
+                    "ctx": {
+                        "_type": "Load"
+                    },
+                    "end_col_offset": 12,
+                    "end_lineno": 7,
+                    "id": "int",
+                    "lineno": 7
+                },
+                "keywords": [],
+                "lineno": 7
+            }
+        },
+        {
+            "_type": "If",
+            "body": [
+                {
+                    "_type": "If",
+                    "body": [
+                        {
+                            "_type": "If",
+                            "body": [
+                                {
+                                    "_type": "If",
+                                    "body": [
+                                        {
+                                            "_type": "Pass",
+                                            "col_offset": 24,
+                                            "end_col_offset": 28,
+                                            "end_lineno": 12,
+                                            "lineno": 12
+                                        }
+                                    ],
+                                    "col_offset": 6,
+                                    "end_col_offset": 38,
+                                    "end_lineno": 14,
+                                    "lineno": 12,
+                                    "orelse": [
+                                        {
+                                            "_type": "Assign",
+                                            "col_offset": 8,
+                                            "end_col_offset": 38,
+                                            "end_lineno": 14,
+                                            "lineno": 14,
+                                            "targets": [
+                                                {
+                                                    "_type": "Name",
+                                                    "col_offset": 8,
+                                                    "ctx": {
+                                                        "_type": "Store"
+                                                    },
+                                                    "end_col_offset": 11,
+                                                    "end_lineno": 14,
+                                                    "id": "key",
+                                                    "lineno": 14
+                                                }
+                                            ],
+                                            "type_comment": null,
+                                            "value": {
+                                                "_type": "BinOp",
+                                                "col_offset": 14,
+                                                "end_col_offset": 38,
+                                                "end_lineno": 14,
+                                                "left": {
+                                                    "_type": "Call",
+                                                    "args": [
+                                                        {
+                                                            "_type": "Name",
+                                                            "col_offset": 27,
+                                                            "ctx": {
+                                                                "_type": "Load"
+                                                            },
+                                                            "end_col_offset": 33,
+                                                            "end_lineno": 14,
+                                                            "id": "keysym",
+                                                            "lineno": 14
+                                                        }
+                                                    ],
+                                                    "col_offset": 14,
+                                                    "end_col_offset": 34,
+                                                    "end_lineno": 14,
+                                                    "func": {
+                                                        "_type": "Name",
+                                                        "col_offset": 14,
+                                                        "ctx": {
+                                                            "_type": "Load"
+                                                        },
+                                                        "end_col_offset": 26,
+                                                        "end_lineno": 14,
+                                                        "id": "is_one_digit",
+                                                        "lineno": 14
+                                                    },
+                                                    "keywords": [],
+                                                    "lineno": 14
+                                                },
+                                                "lineno": 14,
+                                                "op": {
+                                                    "_type": "Sub"
+                                                },
+                                                "right": {
+                                                    "_type": "Constant",
+                                                    "col_offset": 37,
+                                                    "end_col_offset": 38,
+                                                    "end_lineno": 14,
+                                                    "kind": null,
+                                                    "lineno": 14,
+                                                    "n": 1,
+                                                    "s": 1,
+                                                    "value": 1
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "test": {
+                                        "_type": "Compare",
+                                        "col_offset": 9,
+                                        "comparators": [
+                                            {
+                                                "_type": "Constant",
+                                                "col_offset": 19,
+                                                "end_col_offset": 21,
+                                                "end_lineno": 12,
+                                                "kind": null,
+                                                "lineno": 12,
+                                                "n": 10,
+                                                "s": 10,
+                                                "value": 10
+                                            }
+                                        ],
+                                        "end_col_offset": 21,
+                                        "end_lineno": 12,
+                                        "left": {
+                                            "_type": "Name",
+                                            "col_offset": 9,
+                                            "ctx": {
+                                                "_type": "Load"
+                                            },
+                                            "end_col_offset": 15,
+                                            "end_lineno": 12,
+                                            "id": "keysym",
+                                            "lineno": 12
+                                        },
+                                        "lineno": 12,
+                                        "ops": [
+                                            {
+                                                "_type": "GtE"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "col_offset": 4,
+                            "end_col_offset": 38,
+                            "end_lineno": 16,
+                            "lineno": 11,
+                            "orelse": [
+                                {
+                                    "_type": "Assign",
+                                    "col_offset": 8,
+                                    "end_col_offset": 38,
+                                    "end_lineno": 16,
+                                    "lineno": 16,
+                                    "targets": [
+                                        {
+                                            "_type": "Name",
+                                            "col_offset": 8,
+                                            "ctx": {
+                                                "_type": "Store"
+                                            },
+                                            "end_col_offset": 11,
+                                            "end_lineno": 16,
+                                            "id": "key",
+                                            "lineno": 16
+                                        }
+                                    ],
+                                    "type_comment": null,
+                                    "value": {
+                                        "_type": "BinOp",
+                                        "col_offset": 14,
+                                        "end_col_offset": 38,
+                                        "end_lineno": 16,
+                                        "left": {
+                                            "_type": "Call",
+                                            "args": [
+                                                {
+                                                    "_type": "Name",
+                                                    "col_offset": 27,
+                                                    "ctx": {
+                                                        "_type": "Load"
+                                                    },
+                                                    "end_col_offset": 33,
+                                                    "end_lineno": 16,
+                                                    "id": "keysym",
+                                                    "lineno": 16
+                                                }
+                                            ],
+                                            "col_offset": 14,
+                                            "end_col_offset": 34,
+                                            "end_lineno": 16,
+                                            "func": {
+                                                "_type": "Name",
+                                                "col_offset": 14,
+                                                "ctx": {
+                                                    "_type": "Load"
+                                                },
+                                                "end_col_offset": 26,
+                                                "end_lineno": 16,
+                                                "id": "is_one_digit",
+                                                "lineno": 16
+                                            },
+                                            "keywords": [],
+                                            "lineno": 16
+                                        },
+                                        "lineno": 16,
+                                        "op": {
+                                            "_type": "Add"
+                                        },
+                                        "right": {
+                                            "_type": "Constant",
+                                            "col_offset": 37,
+                                            "end_col_offset": 38,
+                                            "end_lineno": 16,
+                                            "kind": null,
+                                            "lineno": 16,
+                                            "n": 1,
+                                            "s": 1,
+                                            "value": 1
+                                        }
+                                    }
+                                }
+                            ],
+                            "test": {
+                                "_type": "Call",
+                                "args": [
+                                    {
+                                        "_type": "Call",
+                                        "args": [],
+                                        "col_offset": 11,
+                                        "end_col_offset": 18,
+                                        "end_lineno": 11,
+                                        "func": {
+                                            "_type": "Name",
+                                            "col_offset": 11,
+                                            "ctx": {
+                                                "_type": "Load"
+                                            },
+                                            "end_col_offset": 16,
+                                            "end_lineno": 11,
+                                            "id": "input",
+                                            "lineno": 11
+                                        },
+                                        "keywords": [],
+                                        "lineno": 11
+                                    }
+                                ],
+                                "col_offset": 7,
+                                "end_col_offset": 19,
+                                "end_lineno": 11,
+                                "func": {
+                                    "_type": "Name",
+                                    "col_offset": 7,
+                                    "ctx": {
+                                        "_type": "Load"
+                                    },
+                                    "end_col_offset": 10,
+                                    "end_lineno": 11,
+                                    "id": "int",
+                                    "lineno": 11
+                                },
+                                "keywords": [],
+                                "lineno": 11
+                            }
+                        }
+                    ],
+                    "col_offset": 2,
+                    "end_col_offset": 38,
+                    "end_lineno": 16,
+                    "lineno": 10,
+                    "orelse": [],
+                    "test": {
+                        "_type": "Compare",
+                        "col_offset": 5,
+                        "comparators": [
+                            {
+                                "_type": "Constant",
+                                "col_offset": 14,
+                                "end_col_offset": 16,
+                                "end_lineno": 10,
+                                "kind": null,
+                                "lineno": 10,
+                                "n": 16,
+                                "s": 16,
+                                "value": 16
+                            }
+                        ],
+                        "end_col_offset": 16,
+                        "end_lineno": 10,
+                        "left": {
+                            "_type": "Name",
+                            "col_offset": 5,
+                            "ctx": {
+                                "_type": "Load"
+                            },
+                            "end_col_offset": 11,
+                            "end_lineno": 10,
+                            "id": "keysym",
+                            "lineno": 10
+                        },
+                        "lineno": 10,
+                        "ops": [
+                            {
+                                "_type": "Lt"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "col_offset": 0,
+            "end_col_offset": 38,
+            "end_lineno": 16,
+            "lineno": 9,
+            "orelse": [],
+            "test": {
+                "_type": "Compare",
+                "col_offset": 3,
+                "comparators": [
+                    {
+                        "_type": "Constant",
+                        "col_offset": 13,
+                        "end_col_offset": 14,
+                        "end_lineno": 9,
+                        "kind": null,
+                        "lineno": 9,
+                        "n": 0,
+                        "s": 0,
+                        "value": 0
+                    }
+                ],
+                "end_col_offset": 14,
+                "end_lineno": 9,
+                "left": {
+                    "_type": "Name",
+                    "col_offset": 3,
+                    "ctx": {
+                        "_type": "Load"
+                    },
+                    "end_col_offset": 9,
+                    "end_lineno": 9,
+                    "id": "keysym",
+                    "lineno": 9
+                },
+                "lineno": 9,
+                "ops": [
+                    {
+                        "_type": "GtE"
+                    }
+                ]
+            }
+        }
+    ],
+    "type_ignores": []
+}
